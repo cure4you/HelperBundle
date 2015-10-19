@@ -13,7 +13,7 @@
     "autoload": {
         "psr-4": { "Cure4you\\HelperBundle": "" }
     },
-    "target-dir": "Cure4you/HelperBundle",
+
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
