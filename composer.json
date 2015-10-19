@@ -1,0 +1,22 @@
+{
+    "name": "cure4you/helper-bundle",
+    "description": "Bundle which contain common helperss",
+    "keywords": ["api", "helper", "util"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+
+    "require": {
+      "php": ">=5.4.0",
+      "symfony/framework-bundle": "~2.7|~3.0"
+    },
+
+    "autoload": {
+        "psr-4": { "Cure4you\\HelperBundle": "" }
+    },
+    "target-dir": "Cure4you/HelperBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
