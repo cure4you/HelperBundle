@@ -4,6 +4,5 @@ parameters:
 services:
     cure4you_helper.listener.kernel.convert_html:
         class: Cure4you\HelperBundle\Util\ConvertToHtmlResponse
-        arguments: [%ecom.convert_json_to_html%]
         tags:
             - { name: kernel.event_listener, event: kernel.response }
